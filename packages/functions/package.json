@@ -1,0 +1,29 @@
+{
+  "name": "@sui-indexer/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.116",
+    "@types/node": "^20.2.5",
+    "@types/pg": "^8.10.2",
+    "sst": "^2.11.18",
+    "vitest": "^0.32.0"
+  },
+  "dependencies": {
+    "@scallop-dao/sui-kit": "^0.32.11",
+    "add": "^2.0.6",
+    "fetch": "^1.1.0",
+    "knex": "^2.4.2",
+    "node-fetch": "^3.3.1",
+    "objection": "^3.0.1",
+    "pg": "^8.11.0",
+    "postgresql-client": "^2.5.9",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.16",
+    "yarn": "^1.22.19"
+  }
+}
